@@ -1,3 +1,11 @@
-export default function productDetail() {
-  return <h1>Product details</h1>;
+interface ProductPageProps {
+  params: {
+    productId: string;
+  };
+}
+
+export default async function productDetail({ params }: ProductPageProps) {
+  const { productId } = await params;
+
+  return <h1>Product details {productId}</h1>;
 }
