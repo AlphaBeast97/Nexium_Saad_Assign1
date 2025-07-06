@@ -7,7 +7,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import quotesData from "@/data/quotes.json";
-import { QuoteTopicContext } from "@/provider/QuoteTopicProvider";
+import { QuoteTopicContext } from "@/provider/QuoteProvider";
 import { useContext } from "react";
 import toast from "react-hot-toast";
 
@@ -18,15 +18,15 @@ export function Selector() {
     setTopic: () => {},
   };
 
-    const topics = Object.keys(quotesData);
-    
-    const handleChange = (value: string) => {
-        setTopic(value);
-        toast.success(`Topic set to: ${value}`, {
-          duration: 3000,
-          id: "topic-change-toast",
-        });
-    };
+  const topics = Object.keys(quotesData);
+
+  const handleChange = (value: string) => {
+    setTopic(value);
+    toast.success(`Topic set to: ${value}`, {
+      duration: 3000,
+      id: "topic-change-toast",
+    });
+  };
   return (
     <div className="flex flex-col items-center my-6">
       <label

@@ -1,5 +1,5 @@
 {
-  "Work": [
+  "Work 🏢": [
     {
       "id": "w1",
       "text": "The only way to do great work is to love what you do.",
@@ -16,7 +16,7 @@
       "author": "Confucius"
     }
   ],
-  "Motivation": [
+  "Motivation 🤩": [
     {
       "id": "m1",
       "text": "Believe you can and you're halfway there.",
@@ -33,7 +33,7 @@
       "author": "Peter Drucker"
     }
   ],
-  "Life": [
+  "Life 🤩": [
     {
       "id": "l1",
       "text": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
@@ -50,7 +50,7 @@
       "author": "John Lennon"
     }
   ],
-  "Love": [
+  "Love 😍": [
     {
       "id": "lv1",
       "text": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
@@ -67,7 +67,7 @@
       "author": "William Shakespeare"
     }
   ],
-  "Innovation": [
+  "Innovation 🔮": [
     {
       "id": "i1",
       "text": "Innovation distinguishes between a leader and a follower.",
@@ -84,7 +84,7 @@
       "author": "Plato"
     }
   ],
-  "Wisdom": [
+  "Wisdom 🌠": [
     {
       "id": "ws1",
       "text": "The only true wisdom is in knowing you know nothing.",
@@ -101,7 +101,7 @@
       "author": "Henry David Thoreau"
     }
   ],
-  "Change": [
+  "Change 🕵️‍♂️": [
     {
       "id": "c1",
       "text": "Be the change that you wish to see in the world.",
@@ -118,7 +118,7 @@
       "author": "Norman Vincent Peale"
     }
   ],
-  "Creativity": [
+  "Creativity ✨": [
     {
       "id": "cr1",
       "text": "Logic will get you from A to B. Imagination will take you everywhere.",
@@ -135,7 +135,7 @@
       "author": "Ralph Waldo Emerson"
     }
   ],
-  "Peace": [
+  "Peace ✌️": [
     {
       "id": "p1",
       "text": "Peace begins with a smile.",
@@ -152,7 +152,7 @@
       "author": "Jimi Hendrix"
     }
   ],
-  "Success": [
+  "Success 😎": [
     {
       "id": "s1",
       "text": "Strive not to be a success, but rather to be of value.",
@@ -169,7 +169,7 @@
       "author": "Winston Churchill"
     }
   ],
-  "Happiness": [
+  "Happiness 😁": [
     {
       "id": "h1",
       "text": "Happiness is not something ready-made. It comes from your own actions.",
@@ -186,7 +186,7 @@
       "author": "Ralph Waldo Emerson"
     }
   ],
-  "Courage": [
+  "Courage 😌": [
     {
       "id": "crg1",
       "text": "Courage is resistance to fear, mastery of fear – not absence of fear.",
@@ -203,7 +203,7 @@
       "author": "Ernest Hemingway"
     }
   ],
-  "Friendship": [
+  "Friendship 🙏": [
     {
       "id": "f1",
       "text": "A friend in need is a friend indeed.",
@@ -220,7 +220,7 @@
       "author": "The Beatles"
     }
   ],
-  "Nature": [
+  "Nature 🏞️": [
     {
       "id": "n1",
       "text": "Look deep into nature, and then you will understand everything better.",
@@ -237,7 +237,7 @@
       "author": "Theodore Roosevelt"
     }
   ],
-  "Knowledge": [
+  "Knowledge 📔": [
     {
       "id": "k1",
       "text": "Knowledge is power.",

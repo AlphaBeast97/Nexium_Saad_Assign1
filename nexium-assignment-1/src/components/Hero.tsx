@@ -1,4 +1,5 @@
 import { QuoteButton } from "./QuoteButton";
+import { QuotesAccordion } from "@/components/QuotesAccordion";
 import { Selector } from "./Selector";
 
 export function Hero() {
@@ -9,6 +10,7 @@ export function Hero() {
       </h1>
       <Selector />
       <QuoteButton />
+      <QuotesAccordion />
     </section>
   );
 }
