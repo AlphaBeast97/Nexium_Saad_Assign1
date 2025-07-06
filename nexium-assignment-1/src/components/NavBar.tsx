@@ -9,7 +9,16 @@ export function NavBar() {
       >
         QuoteNation
       </Link>
-        
+      <ul className="flex space-x-6"> 
+        <li>
+          <Link
+            className="text-lg font-medium text-blue-800 hover:text-blue-600 transition-colors duration-200"
+            href="/about"
+          >
+            About
+          </Link>
+        </li>
+       </ul>
     </nav>
   );
 }

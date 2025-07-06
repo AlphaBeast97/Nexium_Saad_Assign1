@@ -1,23 +1,24 @@
 import Link from "next/link";
 
-export const metadata = {
-  title: "Page Not Found",
-  description: "The page you are looking for does not exist.",
-};
-
-export default function NotFound() {
+export default function About() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 to-blue-300 text-blue-900 p-6 sm:p-10">
-      {/* Container for the content */}
       <div className="text-center bg-white/80 shadow-2xl rounded-xl p-8 sm:p-14 max-w-2xl w-full border border-blue-200 backdrop-blur-md">
-        <h1 className="text-6xl sm:text-7xl font-extrabold text-blue-700 mb-4 drop-shadow">
-          404
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-blue-700 mb-4 drop-shadow">
+          About QuoteNation
         </h1>
-        <p className="text-3xl sm:text-4xl font-semibold text-blue-900 mb-4">
-          Page Not Found
+        <p className="text-lg sm:text-xl text-blue-900 mb-6 font-medium">
+          QuoteNation is a platform dedicated to sharing and celebrating the
+          power of quotes. Our mission is to inspire and uplift individuals
+          through the wisdom of words.
+        </p>
+        <p className="text-lg sm:text-xl text-blue-900 mb-6 font-medium">
+          Whether you&apos;re looking for motivation, wisdom, or just a daily
+          dose of inspiration, QuoteNation has something for everyone.
         </p>
         <p className="text-lg sm:text-xl text-blue-900 mb-8 font-medium">
-          The page you are looking for does not exist or has been moved.
+          Join our community of quote enthusiasts and share your favorite quotes
+          with the world!
         </p>
         <Link
           href="/"
@@ -40,10 +41,6 @@ export default function NotFound() {
           Go to Home
         </Link>
       </div>
-
-      <footer className="mt-12 text-blue-200 text-sm">
-        &copy; {new Date().getFullYear()} QuoteNation. All rights reserved.
-      </footer>
     </div>
   );
 }
