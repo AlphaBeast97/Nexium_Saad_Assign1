@@ -1,7 +1,4 @@
 # QuoteNation - Nexium Assignment 1
-
-![QuoteNation Banner](https://raw.githubusercontent.com/AlphaBeast97/Nexium_Saad_Assign1/main/public/quote-banner.png)
-
 ## Overview
 
 QuoteNation is a modern, responsive web application built with Next.js, Tailwind CSS, and shadcn/ui. It allows users to discover, filter, and enjoy a curated collection of inspirational quotes by topic. This project was developed as Assignment 1 for Nexium Internship by **M. Saad Khan**.
