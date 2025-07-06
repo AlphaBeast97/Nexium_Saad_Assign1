@@ -1,4 +1,4 @@
-import quotesData from "@/data/quotes.json";
+import quotesData from "../data/quotes.json";
 
 type Quote = {
   id: string;

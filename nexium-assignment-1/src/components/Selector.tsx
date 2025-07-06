@@ -6,7 +6,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import quotesData from "@/data/quotes.json";
+import quotesData from "../data/quotes.json";
 import { QuoteTopicContext } from "@/provider/QuoteProvider";
 import { useContext } from "react";
 import toast from "react-hot-toast";
