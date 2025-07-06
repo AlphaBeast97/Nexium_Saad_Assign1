@@ -18,8 +18,8 @@ QuoteNation is a modern, responsive web application built with Next.js, Tailwind
 
 ## 🛠️ Tech Stack
 
-- [Next.js 14 (App Router)](https://nextjs.org/)
-- [React 18](https://react.dev/)
+- [Next.js 15 (App Router)](https://nextjs.org/)
+- [React 19](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [shadcn/ui](https://ui.shadcn.com/)
 - [TypeScript](https://www.typescriptlang.org/)
