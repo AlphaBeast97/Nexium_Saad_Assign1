@@ -1,7 +1,7 @@
 # QuoteNation - Nexium Assignment 1
 ## Overview
 
-QuoteNation is a modern, responsive web application built with Next.js, Tailwind CSS, and shadcn/ui. It allows users to discover, filter, and enjoy a curated collection of inspirational quotes by topic. This project was developed as Assignment 1 for Nexium Internship by **M. Saad Khan**.
+QuoteNation is a modern, responsive web application built with Next.js, Tailwind CSS, shadcn/ui and daisyUI. It allows users to discover, filter, and enjoy a curated collection of inspirational quotes by topic. This project was developed as Assignment 1 for Nexium Internship by **M. Saad Khan**.
 
 ---
 
@@ -9,7 +9,7 @@ QuoteNation is a modern, responsive web application built with Next.js, Tailwind
 
 - 🔍 **Topic Selector:** Instantly filter quotes by category (e.g., Work, Motivation, Life, Love, etc.).
 - 📋 **Dynamic Quote Display:** View quotes in a beautiful accordion interface.
-- 🎨 **Modern UI:** Clean, accessible, and responsive design using Tailwind CSS and shadcn/ui components.
+- 🎨 **Modern UI:** Clean, accessible, and responsive design using Tailwind CSS, shadcn/ui and daisyUI components.
 - ⚡ **React Context:** Global state management for selected topic and quotes.
 - 🛡️ **TypeScript:** Fully typed for safety and maintainability.
 - 🚀 **Toast Notifications:** User feedback for actions and errors.
@@ -21,7 +21,7 @@ QuoteNation is a modern, responsive web application built with Next.js, Tailwind
 - [Next.js 15 (App Router)](https://nextjs.org/)
 - [React 19](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [shadcn/ui](https://ui.shadcn.com/)
+- [shadcn/ui](https://ui.shadcn.com/) & [daisyUI](https://daisyui.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [react-hot-toast](https://react-hot-toast.com/)
 
