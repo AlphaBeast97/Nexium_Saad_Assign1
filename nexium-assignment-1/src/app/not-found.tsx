@@ -1,3 +1,9 @@
+
+export const metadata = {
+  title: "Page Not Found",
+  description: "The page you are looking for does not exist.",
+};
+
 export default function NotFound() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 text-gray-800 p-6 sm:p-10">

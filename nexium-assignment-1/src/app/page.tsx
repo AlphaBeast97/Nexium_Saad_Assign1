@@ -1,3 +1,12 @@
+import { Hero } from "@/components/Hero";
+
+export const metadata = {
+  title: "Quote Generator",
+  description: "A simple quote generator application",
+};
+
 export default function Home() {
-  return <h1 className="text-blue-500">This is Home Page</h1>;
+  return (
+    <Hero />
+  );
 }
