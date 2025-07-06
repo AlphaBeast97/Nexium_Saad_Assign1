@@ -1,4 +1,5 @@
 import { Hero } from "@/components/Hero";
+export const dynamic = "force-static";
 
 export const metadata = {
   title: "Quote Generator",
