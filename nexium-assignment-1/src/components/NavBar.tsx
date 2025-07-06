@@ -10,7 +10,6 @@ export function NavBar() {
         QuoteNation
       </Link>
         
-          
     </nav>
   );
 }
