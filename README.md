@@ -12,7 +12,6 @@ QuoteNation is a modern, responsive web application built with Next.js, Tailwind
 - 🎨 **Modern UI:** Clean, accessible, and responsive design using Tailwind CSS and shadcn/ui components.
 - ⚡ **React Context:** Global state management for selected topic and quotes.
 - 🛡️ **TypeScript:** Fully typed for safety and maintainability.
-- 🌙 **Dark Mode Ready:** Easily extendable for dark mode support.
 - 🚀 **Toast Notifications:** User feedback for actions and errors.
 
 ---
