@@ -1,5 +1,10 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "About QuoteNation",
+  description: "Learn more about QuoteNation and its creator.",
+};
+
 export default function About() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 to-blue-300 text-blue-900 p-6 sm:p-10">
@@ -7,18 +12,20 @@ export default function About() {
         <h1 className="text-4xl sm:text-5xl font-extrabold text-blue-700 mb-4 drop-shadow">
           About QuoteNation
         </h1>
-        <p className="text-lg sm:text-xl text-blue-900 mb-6 font-medium">
-          QuoteNation is a platform dedicated to sharing and celebrating the
-          power of quotes. Our mission is to inspire and uplift individuals
-          through the wisdom of words.
+        <p className="text-lg sm:text-xl text-blue-900 mb-4 font-medium">
+          QuoteNation is a simple site for discovering and enjoying great
+          quotes.
         </p>
-        <p className="text-lg sm:text-xl text-blue-900 mb-6 font-medium">
-          Whether you&apos;re looking for motivation, wisdom, or just a daily
-          dose of inspiration, QuoteNation has something for everyone.
-        </p>
-        <p className="text-lg sm:text-xl text-blue-900 mb-8 font-medium">
-          Join our community of quote enthusiasts and share your favorite quotes
-          with the world!
+        <p className="text-md sm:text-lg text-blue-800 mb-8 font-normal">
+          Developed by{" "}
+          <a
+            href="https://github.com/AlphaBeast97"
+            className="underline font-semibold hover:text-blue-900 transition-colors duration-200"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            M. Saad Khan
+          </a>
         </p>
         <Link
           href="/"
