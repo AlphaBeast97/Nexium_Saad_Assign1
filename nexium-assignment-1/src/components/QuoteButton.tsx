@@ -3,7 +3,7 @@ import toast from "react-hot-toast";
 import { Button } from "./ui/button";
 import { useContext } from "react";
 import { QuotesContext, QuoteTopicContext } from "@/provider/QuoteProvider";
-import { getQuotes } from "@/generator/QuoteGenerator";
+import { getQuotes } from "../generator/QuoteGenerator";
 
 export function QuoteButton() {
   const QuoteTopic = useContext(QuoteTopicContext);
