@@ -4,6 +4,7 @@ import "./global.css";
 import { NavBar } from "@/components/NavBar";
 import { FootBar } from "@/components/FootBar";
 import { Toaster } from "react-hot-toast";
+import { QuoteTopicProvider } from "@/provider/QuoteTopicProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,10 +31,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Toaster />
-        <NavBar />
-        {children}
-        <FootBar />
+        <QuoteTopicProvider>
+          <Toaster />
+          <NavBar />
+          {children}
+          <FootBar />
+        </QuoteTopicProvider>
       </body>
     </html>
   );
