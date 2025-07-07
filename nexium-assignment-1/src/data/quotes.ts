@@ -1,3 +1,6 @@
+// This file contains all the quotes grouped by topic.
+// Each topic is a key, and the value is an array of quote objects.
+// To add a new topic or quote, just add to this object.
 export const quotesData = {
   "Work 🏢": [
     {

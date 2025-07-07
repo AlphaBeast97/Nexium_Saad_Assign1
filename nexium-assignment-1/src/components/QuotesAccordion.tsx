@@ -16,6 +16,7 @@ type Quote = {
 };
 
 export function QuotesAccordion() {
+  // Get quotes from context
   const QuotesData = useContext(QuotesContext);
   const { quotes } = (QuotesData || { quotes: [] }) as { quotes: Quote[] };
   if (!quotes.length) return null;
@@ -27,7 +28,6 @@ export function QuotesAccordion() {
       className="w-full max-w-md mt-6 border border-blue-300 bg-white/90 rounded-lg shadow-lg p-4"
     >
       {quotes.map((quote, index) => (
-
         <AccordionItem
           key={quote.id}
           value={`item-${index + 1}`}

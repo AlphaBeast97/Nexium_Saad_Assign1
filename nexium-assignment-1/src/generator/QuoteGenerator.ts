@@ -1,5 +1,6 @@
 import { quotesData } from "../data/quotes";
 
+// Type definition for a single quote
 type Quote = {
   id: string;
   author: string;
@@ -7,6 +8,7 @@ type Quote = {
   topic?: string;
 };
 
+// Returns all quotes for a given topic, adding the topic to each quote object
 export function getQuotes(topic: string): Quote[] {
   const arr =
     (quotesData[topic as keyof typeof quotesData] as Array<{

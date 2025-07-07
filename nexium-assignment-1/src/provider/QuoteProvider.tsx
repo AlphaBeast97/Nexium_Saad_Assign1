@@ -1,7 +1,8 @@
+// This file provides React Contexts and Providers for global state management.
 "use client";
 import { createContext, useState } from "react";
 
-// 1. Create the context
+// Context and provider for the currently selected topic
 type QuoteTopicContextType = {
   topic: string;
   setTopic: React.Dispatch<React.SetStateAction<string>>;
@@ -11,7 +12,7 @@ export const QuoteTopicContext = createContext<
   QuoteTopicContextType | undefined
 >(undefined);
 
-// 2. Create the provider component
+// Provider for the selected topic
 export function QuoteTopicProvider({
   children,
 }: {
@@ -25,6 +26,7 @@ export function QuoteTopicProvider({
   );
 }
 
+// Type for a single quote
 type Quote = {
   id: string;
   author: string;
@@ -32,6 +34,7 @@ type Quote = {
   topic?: string;
 };
 
+// Context and provider for the list of quotes
 type QuotesProviderProps = {
   quotes: Quote[];
   setQuotes: React.Dispatch<React.SetStateAction<Quote[]>>;
@@ -41,6 +44,7 @@ export const QuotesContext = createContext<QuotesProviderProps | undefined>(
   undefined
 );
 
+// Provider for the list of quotes, wraps the topic provider
 export function QuotesProvider({ children }: { children: React.ReactNode }) {
   const [quotes, setQuotes] = useState<Quote[]>([]);
   return (

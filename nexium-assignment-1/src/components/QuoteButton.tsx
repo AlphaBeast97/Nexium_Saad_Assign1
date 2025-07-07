@@ -6,9 +6,11 @@ import { QuotesContext, QuoteTopicContext } from "@/provider/QuoteProvider";
 import { getQuotes } from "../generator/QuoteGenerator";
 
 export function QuoteButton() {
+  // Get selected topic from context
   const QuoteTopic = useContext(QuoteTopicContext);
   const { topic } = QuoteTopic || { topic: "" };
 
+  // Get setQuotes function from context
   const QuotesData = useContext(QuotesContext);
   const { setQuotes } = QuotesData || { setQuotes: () => {} };
 
@@ -21,6 +23,7 @@ export function QuoteButton() {
       return;
     }
 
+    // Fetch quotes for the selected topic
     const Quotes = getQuotes(topic);
     if (Quotes.length > 0) {
       toast.success("Quotes fetched successfully!", {

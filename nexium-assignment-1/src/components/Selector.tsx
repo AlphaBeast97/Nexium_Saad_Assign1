@@ -12,12 +12,14 @@ import { useContext } from "react";
 import toast from "react-hot-toast";
 
 export function Selector() {
+  // Get topic and setTopic from context
   const SelectedTopic = useContext(QuoteTopicContext);
   const { topic, setTopic } = SelectedTopic || {
     topic: "",
     setTopic: () => {},
   };
 
+  // List of all available topics
   const topics = Object.keys(quotesData);
 
   const handleChange = (value: string) => {
@@ -35,6 +37,7 @@ export function Selector() {
       >
         Choose a Topic
       </label>
+      {/* Dropdown UI */}
       <Select value={topic} onValueChange={handleChange}>
         <SelectTrigger
           id="topic-select"
