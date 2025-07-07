@@ -45,7 +45,7 @@ export function Selector() {
         >
           <SelectValue placeholder="Select Topic" />
         </SelectTrigger>
-        <SelectContent className="bg-white/95 border-blue-200 rounded-lg shadow-lg">
+        <SelectContent className="bg-white/60 border-blue-200 rounded-lg shadow-lg backdrop-blur-md">
           {topics.map((topic) => (
             <SelectItem
               key={topic}
