@@ -73,7 +73,7 @@ QuoteNation is a modern, responsive web application built with Next.js, Tailwind
 ## 👤 Author
 
 - Developed by [M. Saad Khan](https://github.com/AlphaBeast97)
-- [GitHub Repository](https://github.com/AlphaBeast97/Nexium_Saad_Assign1)
+- [Live Demo](https://quotenation.vercel.app/)
 
 ---
 
